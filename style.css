@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.hide{
+  display: none;
+}
+#gameArea{
+background-color: #313e47;
+    width: 400px;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+.car{
+background-color: red;
+  height: 100px;
+  z-index: 222;
+  width: 40px;
+  position: absolute;
+  top: 550px;
+  left: 10px;
+  
+}
+.lines{
+  height: 100px;
+  width: 30px;
+  background-color: white;
+  margin-left:195px ;
+  position: absolute;
+  
+}
+.enemyCar{
+    top: 0px;
+    background: yellow;
+    height: 100px;
+    width: 40px;
+    position: absolute;
+}
