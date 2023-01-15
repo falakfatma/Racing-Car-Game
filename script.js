@@ -84,9 +84,7 @@ function gamePlay() {
   }
 }
 function gameStart() {
-  // gameArea.classList.remove('hide')
   gameArea.innerHTML = ""
-  score.classList.remove('hide')
   gameAlert.classList.add('hide')
 
   player.start = true

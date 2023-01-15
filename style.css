@@ -2,6 +2,14 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.container{
+  width: 100%;
+/*     height: 100%; */
+    background:url('https://images.unsplash.com/photo-1618904861641-70ecbbe2457b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8NDAxOTIyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .hide{
   display: none;
 }
@@ -22,7 +30,7 @@ background-color: #313e47;
   z-index: 222;
   width: 40px;
   position: absolute;
-  top: 550px;
+  top: 490px;
   left: 10px;
   
 }
@@ -46,7 +54,9 @@ background-color: #313e47;
 }
 #score{
   width:15rem;
+  color: white;
   height:6rem;
+  margin: 2px;
   background-color: #e23636;
   font-size: 2.5rem;
   text-align: center;
