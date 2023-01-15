@@ -14,7 +14,10 @@ background-color: #313e47;
     position: relative;
 }
 .car{
-background-color: red;
+  background: url('https://cdn.pixabay.com/photo/2013/07/12/11/58/car-145008__340.png');
+  background-position: center;
+  background-size: cover;
+/* background-color: red; */
   height: 100px;
   z-index: 222;
   width: 40px;
@@ -32,9 +35,38 @@ background-color: red;
   
 }
 .enemyCar{
+  background: url('https://cdn.pixabay.com/photo/2013/07/13/13/14/car-160603__340.png');
+   background-position: center;
+  background-size: cover;
     top: 0px;
-    background: yellow;
+/*     background: yellow; */
     height: 100px;
     width: 40px;
     position: absolute;
+}
+#score{
+  width:15rem;
+  height:6rem;
+  background-color: #e23636;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.container{
+  display: flex;
+}
+#gameAlert{
+    width: 30rem;
+    height: 14rem;
+  transform: translate(-50%,-50%);
+  padding: auto;
+    background: #c0662a;
+    border: 2px solid;
+    font-size: 3rem;
+  word-spacing: 2;
+  position: absolute;
+  top: 50%;
+  z-index: 333;
+  left: 50%;
+    text-align: center;
+/*     margin: auto;/ */
 }
